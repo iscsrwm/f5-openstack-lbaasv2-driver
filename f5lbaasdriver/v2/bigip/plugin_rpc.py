@@ -31,6 +31,8 @@ from neutron_lib import constants as neutron_const
 from oslo_log import helpers as log_helpers
 from oslo_log import log as logging
 
+plugin_constants.ERROR="ERROR"
+
 
 LOG = logging.getLogger(__name__)
 
